@@ -34,7 +34,9 @@
             <th>User Name</th>
             <th>User Email</th>
             <th>Password</th>
-            <th>Action</th>
+            @if(Auth::user()->role === 'admin')
+            <th width="280px">Action</th>
+            @endif
         </tr>
         @foreach ($users as $user)
         <tr>
