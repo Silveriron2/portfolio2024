@@ -150,6 +150,3 @@
 </div>
 @endsection
 
-@section('script')
-<!-- Your script goes here -->
-@endsection

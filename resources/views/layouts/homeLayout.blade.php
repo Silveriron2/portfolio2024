@@ -34,6 +34,7 @@
 
 <body>
     <div class="container-fluid position-relative d-flex p-0">
+        
         <!-- Spinner Start -->
         @yield('spinner')
         <!-- Spinner End -->
